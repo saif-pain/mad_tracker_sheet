@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class TextStylingExample extends StatelessWidget {
   const TextStylingExample({super.key});
 
@@ -41,7 +40,7 @@ class TextStylingExample extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text('The Third Example', style: TextStyle(color: Colors.red)),
-            SizedBox(height: 10), // Spacer
+            SizedBox(height: 10),
             Text(
               'THIS IS ALL CAPS',
               style: TextStyle(
@@ -50,7 +49,7 @@ class TextStylingExample extends StatelessWidget {
                 color: Colors.blue,
               ),
             ),
-            SizedBox(height: 10), // Spacer
+            SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [

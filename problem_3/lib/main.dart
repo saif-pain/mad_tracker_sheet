@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
 }
 
 class ListViewExample extends StatelessWidget {
-  // Generate a list of 100 items with unique numbers
   final List<int> items = List<int>.generate(20, (index) => index + 1);
 
   ListViewExample({super.key});
